@@ -1,6 +1,6 @@
 {
   "name": "nlptoolkit-xmlparser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Xml Parser",
   "main": "index.js",
   "types": "index.js",
