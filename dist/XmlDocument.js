@@ -276,19 +276,19 @@
         XmlDocument.prototype.replaceEscapeCharacters = function (token) {
             var result = token;
             while (result.search("&quot;") != -1) {
-                result.replace("&quot;", "\"");
+                result = result.replace("&quot;", "\"");
             }
             while (result.search("&amp;") != -1) {
-                result.replace("&amp;", "&");
+                result = result.replace("&amp;", "&");
             }
             while (result.search("&lt;") != -1) {
-                result.replace("&lt;", "<");
+                result = result.replace("&lt;", "<");
             }
             while (result.search("&gt;") != -1) {
-                result.replace("&gt;", ">");
+                result = result.replace("&gt;", ">");
             }
             while (result.search("&apos;") != -1) {
-                result.replace("&apos;", "'");
+                result = result.replace("&apos;", "'");
             }
             return result;
         };

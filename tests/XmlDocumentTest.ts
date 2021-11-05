@@ -12,7 +12,7 @@ describe('XmlTest', function() {
             assert.strictEqual("role", firstChild.getName())
             assert.strictEqual("ali veli \"deneme yapmak\" = anlamında > bir deyim", firstChild.getPcData())
             let secondChild = firstChild.getNextSibling()
-            assert.strictEqual("perceiver, alien to whom?", secondChild.getAttributeValue("descr"))
+            assert.strictEqual("perceiver, alien \"x3\" to whom?", secondChild.getAttributeValue("descr"))
             assert.strictEqual("PAG", secondChild.getAttributeValue("f"))
             assert.strictEqual("2", secondChild.getAttributeValue("n"))
         });
