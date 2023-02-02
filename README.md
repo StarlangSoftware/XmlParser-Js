@@ -1,6 +1,6 @@
 For Developers
 ============
-You can also see [C++](https://github.com/starlangsoftware/XmlParser-CPP) repository.
+You can also see [C++](https://github.com/starlangsoftware/XmlParser-CPP), [C](https://github.com/starlangsoftware/XmlParser-C), or [Java](https://github.com/starlangsoftware/XmlParser) repository.
 
 ## Requirements
 
