@@ -15,7 +15,6 @@
          * Constructor for xml element. Allocates memory and initializes an element.
          * @param name Name of the element
          * @param parent Parent of the Xml Element
-         * @return Constructed element
          */
         function XmlElement(name, parent) {
             this.name = "";

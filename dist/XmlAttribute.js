@@ -14,7 +14,6 @@
         /**
          * Constructor for xml attribute. Initializes the attribute.
          * @param name Name of the attribute
-         * @return Allocated and initialized attribute
          */
         function XmlAttribute(name) {
             this.name = name;

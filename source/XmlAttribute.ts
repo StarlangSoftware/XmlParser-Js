@@ -1,12 +1,11 @@
 export class XmlAttribute {
 
-    private name: string
+    private readonly name: string
     private value: string
 
     /**
      * Constructor for xml attribute. Initializes the attribute.
      * @param name Name of the attribute
-     * @return Allocated and initialized attribute
      */
     constructor(name: string) {
         this.name = name

@@ -10,7 +10,6 @@ export declare class XmlElement {
      * Constructor for xml element. Allocates memory and initializes an element.
      * @param name Name of the element
      * @param parent Parent of the Xml Element
-     * @return Constructed element
      */
     constructor(name: string, parent: XmlElement);
     getName(): string;
