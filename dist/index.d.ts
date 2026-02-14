@@ -1,0 +1,5 @@
+export * from "./XmlDocument";
+export * from "./XmlElement";
+export * from "./XmlAttribute";
+export * from "./XmlTokenType";
+export * from "./XmlTextType";
