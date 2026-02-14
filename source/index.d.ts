@@ -1,5 +1,0 @@
-export * from "../dist/XmlDocument";
-export * from "../dist/XmlElement";
-export * from "../dist/XmlAttribute";
-export * from "../dist/XmlTokenType";
-export * from "../dist/XmlTextType";

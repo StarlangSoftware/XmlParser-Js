@@ -10,28 +10,27 @@
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.XmlAttribute = void 0;
-    var XmlAttribute = /** @class */ (function () {
+    class XmlAttribute {
         /**
          * Constructor for xml attribute. Initializes the attribute.
          * @param name Name of the attribute
          */
-        function XmlAttribute(name) {
+        constructor(name) {
             this.name = name;
         }
-        XmlAttribute.prototype.getName = function () {
+        getName() {
             return this.name;
-        };
-        XmlAttribute.prototype.getValue = function () {
+        }
+        getValue() {
             return this.value;
-        };
-        XmlAttribute.prototype.setValue = function (value) {
+        }
+        setValue(value) {
             this.value = value;
-        };
-        XmlAttribute.prototype.toString = function () {
+        }
+        toString() {
             return this.name + "=\"" + this.value + "\"";
-        };
-        return XmlAttribute;
-    }());
+        }
+    }
     exports.XmlAttribute = XmlAttribute;
 });
 //# sourceMappingURL=XmlAttribute.js.map
