@@ -1,36 +1,28 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.XmlAttribute = void 0;
+class XmlAttribute {
+    name;
+    value;
+    /**
+     * Constructor for xml attribute. Initializes the attribute.
+     * @param name Name of the attribute
+     */
+    constructor(name) {
+        this.name = name;
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports"], factory);
+    getName() {
+        return this.name;
     }
-})(function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.XmlAttribute = void 0;
-    class XmlAttribute {
-        /**
-         * Constructor for xml attribute. Initializes the attribute.
-         * @param name Name of the attribute
-         */
-        constructor(name) {
-            this.name = name;
-        }
-        getName() {
-            return this.name;
-        }
-        getValue() {
-            return this.value;
-        }
-        setValue(value) {
-            this.value = value;
-        }
-        toString() {
-            return this.name + "=\"" + this.value + "\"";
-        }
+    getValue() {
+        return this.value;
     }
-    exports.XmlAttribute = XmlAttribute;
-});
+    setValue(value) {
+        this.value = value;
+    }
+    toString() {
+        return this.name + "=\"" + this.value + "\"";
+    }
+}
+exports.XmlAttribute = XmlAttribute;
 //# sourceMappingURL=XmlAttribute.js.map

@@ -1,1 +1,1 @@
-{"version":3,"file":"XmlTextType.js","sourceRoot":"","sources":["../source/XmlTextType.ts"],"names":[],"mappings":";;;;;;;;;;;;IAAA,IAAY,WAIX;IAJD,WAAY,WAAW;QACnB,yEAAkB,CAAA;QAClB,iEAAc,CAAA;QACd,iFAAsB,CAAA;IAC1B,CAAC,EAJW,WAAW,GAAX,mBAAW,KAAX,mBAAW,QAItB"}
+{"version":3,"file":"XmlTextType.js","sourceRoot":"","sources":["../source/XmlTextType.ts"],"names":[],"mappings":";;;AAAA,IAAY,WAIX;AAJD,WAAY,WAAW;IACnB,yEAAkB,CAAA;IAClB,iEAAc,CAAA;IACd,iFAAsB,CAAA;AAC1B,CAAC,EAJW,WAAW,2BAAX,WAAW,QAItB"}
